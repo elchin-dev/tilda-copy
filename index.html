@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css?_v=20230202175621" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css?_v=20230202175621"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?_v=20230202175621" />
+  <link rel="stylesheet" href="css/style.min.css?_v=20230202175621" />
+  <title>Главная</title>
+</head>
+
+<body>
+  <!-- Шапка Мобильный-->
+<header class="header__mobile">
+    <div class="header__mobile-container container">
+        <!-- Кнопка Открывание меню -->
+        <button id="open-mobile-menu" class="header__mobile-btn">
+            <span></span>
+        </button>
+
+        <!-- Логотип -->
+        <a href="index.html" class="header__mobile-logo">
+            <img src="images/logo.png" alt="СТИЛЬ Логотип">
+        </a>
+
+        <!-- Телефон -->
+        <a href="tel:+74950211811" class="header__mobile-phone">
+            +7 (495) 021-18-11
+        </a>
+
+        <!-- Социальные сети -->
+        <ul class="header__mobile-socials">
+            <!-- Whatsapp -->
+            <li class="header__mobile-socials-item">
+                <a href="" class="header__mobile-socials-link">
+                    <img src="images/icons/whatsapp.png" alt="">
+                </a>
+            </li>
+            <!-- Telegram -->
+            <li class="header__mobile-socials-item">
+                <a href="" class="header__mobile-socials-link">
+                    <img src="images/icons/telegram.png" alt="">
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<!-- Меню Мобильный -->
+<div id="mobile-menu" class="mobile__menu-overlay">
+    
+    <!-- Меню -->
+    <div class="mobile__menu">
+        <!-- Кнопка закрывание -->
+        <button id="close-mobile-menu" class="mobile__menu-close"></button>
+
+        <!-- Логотип -->
+        <div class="mobile__menu-logo">
+            <!-- Картинка -->
+            <div class="mobile__menu-logo-img">
+                <img src="images/logo.png" alt="">
+            </div>
+            
+            <!-- Описание -->
+            <small class="mobile__menu-logo-txt">
+                Изготовление лесниц на заказ
+            </small>
+        </div>
+
+        <!-- Навигационный меню -->
+        <ul class="mobile__menu-list">
+            <li class="mobile__menu-list-item">
+                <a href="" class="mobile__menu-list-link">
+                    Каталог
+                </a>
+            </li>
+            <li class="mobile__menu-list-item">
+                <a href="" class="mobile__menu-list-link">
+                    Каталог
+                </a>
+            </li>
+            <li class="mobile__menu-list-item">
+                <a href="" class="mobile__menu-list-link">
+                    Каталог
+                </a>
+            </li>
+            <li class="mobile__menu-list-item">
+                <a href="" class="mobile__menu-list-link">
+                    Каталог
+                </a>
+            </li>
+        </ul>
+
+        <!-- Заказать звонок -->
+        <button class="mobile__menu-btn">
+            Заказать звонок
+        </button>
+    </div>
+</div>
+  <main>
+    <!-- Первый Экран -->
+    <section class="intro">
+      <div class="container">
+        <div class="row">
+          <!-- Скрытый заголовок для мобилки -->
+          <div class="col-12 intro__title-m">
+            <!-- Заголовок -->
+            <h1 class="intro__title-m">
+              МЕТАЛЛИЧЕСКИЙ КАРКАС НА <br>
+              МОНОКОСОУРЕ ДЛЯ Г-ОБРАЗНОЙ <br>
+              ЛЕСТНИЦЫ С ПЛОЩАДКОЙ МК-2
+            </h1>
+          </div>
+          <div class="col-xl-6 intro__content-col">
+            <div class="intro__content">
+              <!-- Заголовок -->
+              <h1 class="intro__title">
+                МЕТАЛЛИЧЕСКИЙ КАРКАС НА <br>
+                МОНОКОСОУРЕ ДЛЯ Г-ОБРАЗНОЙ <br>
+                ЛЕСТНИЦЫ С ПЛОЩАДКОЙ МК-2
+              </h1>
+
+              <!-- Преимушества -->
+              <ul class="intro__advantages row">
+                <li class="intro__advantages-item col-lg-6">
+                  <!-- Иконка -->
+                  <div class="intro__advantages-icon">
+                    <img src="images/icons/adv-1.png" alt="">
+                  </div>
+                  <!-- Текст -->
+                  <p class="intro__advantages-txt">
+                    Можем установить поэтапно: сначала каркас и ограждения, после отделки - ступени
+                  </p>
+                </li>
+                <li class="intro__advantages-item col-lg-6">
+                  <!-- Иконка -->
+                  <div class="intro__advantages-icon">
+                    <img src="images/icons/adv-2.png" alt="">
+                  </div>
+                  <!-- Текст -->
+                  <p class="intro__advantages-txt">
+                    Изготовление и установка за неделю
+                  </p>
+                </li>
+                <li class="intro__advantages-item col-lg-6">
+                  <!-- Иконка -->
+                  <div class="intro__advantages-icon">
+                    <img src="images/icons/adv-3.png" alt="">
+                  </div>
+                  <!-- Текст -->
+                  <p class="intro__advantages-txt">
+                    Идеальный вариант на время отделочных работ, чтобы не испортить ступени
+                  </p>
+                </li>
+                <li class="intro__advantages-item col-lg-6">
+                  <!-- Иконка -->
+                  <div class="intro__advantages-icon">
+                    <img src="images/icons/adv-4.png" alt="">
+                  </div>
+                  <!-- Текст -->
+                  <p class="intro__advantages-txt">
+                    Каркас из толстой стали, 8 мм, выдержит нагрузку 900 кг
+                  </p>
+                </li>
+                <li class="intro__advantages-item col-lg-6">
+                  <!-- Иконка -->
+                  <div class="intro__advantages-icon">
+                    <img src="images/icons/adv-5.png" alt="">
+                  </div>
+                  <!-- Текст -->
+                  <p class="intro__advantages-txt">
+                    Гарантия 5 лет
+                  </p>
+                </li>
+                <li class="intro__advantages-item col-lg-6">
+                  <!-- Иконка -->
+                  <div class="intro__advantages-icon">
+                    <img src="images/icons/adv-6.png" alt="">
+                  </div>
+                  <!-- Текст -->
+                  <p class="intro__advantages-txt">
+                    Просто собрать на объекте, можно не платить за сборку
+                  </p>
+                </li>
+              </ul>
+
+              <!-- Цены -->
+              <ul class="intro__prices">
+                <li class="intro__prices-item">
+                  <!-- 1 -->
+                  <p class="intro__prices-txt">Цена каракаса: от</p>
+                  <!-- 2 -->
+                  <p class="intro__prices-price-regular">
+                    99 000
+                  </p>
+                  <!-- 3 -->
+                  <b class="intro__prices-price-bold">
+                    87 545 руб.
+                  </b>
+                </li>
+                <li class="intro__prices-item">
+                  <!-- 1 -->
+                  <p class="intro__prices-txt">Цена каракаса: от</p>
+                  <!-- 2 -->
+                  <p class="intro__prices-price-regular">
+                    99 000
+                  </p>
+                  <!-- 3 -->
+                  <b class="intro__prices-price-bold">
+                    87 545 руб.
+                  </b>
+                </li>
+              </ul>
+
+              <!-- Срок акции -->
+              <p class="intro__date">
+                *Скидка действует до 1 февраля 2023г.
+              </p>
+
+              <!-- Кнопки -->
+              <div class="intro__btns">
+                <!-- Рассчитать стоимость -->
+                <button class="intro__btn intro__calc">
+                  Рассчитать стоимость
+                </button>
+                <!-- Вызвать замерщика -->
+                <button class="intro__btn intro__call">
+                  Вызвать замерщика
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 intro__slider-col">
+            <!-- Большой Слайдер -->
+            <div class="intro__slider-big">
+              <div class="intro__slide">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+            </div>
+            <!-- Малькенкий Слайдер -->
+            <div class="intro__slider-small">
+              <div class="intro__slide-small">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide-small">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide-small">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide-small">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+              <div class="intro__slide-small">
+                <img src="images/slide-1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Скидка -->
+    <section class="sale__section">
+      <div class="container">
+        <div class="row sale__row">
+          <div class="col-xl-7 col-lg-8">
+            <div class="sale">
+              <!-- Заголовок -->
+              <h2 class="sale__title">
+                АКЦИЯ! СКИДКА!
+              </h2>
+
+              <!-- Дата -->
+              <p class="sale__date">
+                Только до 1 февраля 2023г.! скидка на лестницы до
+              </p>
+
+              <!-- Процент -->
+              <b class="sale__percent">30%</b>
+
+              <!-- Форма -->
+              <form class="sale__form" action="">
+                <!-- Телефон -->
+                <p class="sale__form-control">
+                  <label class="sale__label" for="sale-phone">Ваш телефон</label>
+                  <input class="sale__input sale__phone" id="sale-phone" type="text" placeholder="Ваш телефон">
+                </p>
+
+                <!-- Отправить -->
+                <p class="sale__form-control">
+                  <label class="sale__label" for="sale-submit">Получить скидку</label>
+                  <input class="sale__input sale__submit" id="sale-submit" type="submit" value="Получить скидку">
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Заказали более 100 раз -->
+    <p class="intro__orders">
+      Заказали более 100 раз
+    </p>
+    <!-- Замер -->
+    <!-- <section class="measurement__section">
+      <div class="container">
+        <div class="measurement">
+          
+          <div class="measurement__images">
+            <div class="measurement__img">
+              <img src="images/zamer-1.png" alt="">
+            </div>
+            <div class="measurement__img">
+              <img src="images/zamer-2.jpeg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+  </main>
+  
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js?_v=20230202175621"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.min.js?_v=20230202175621"></script> 
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js?_v=20230202175621"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js?_v=20230202175621" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js?_v=20230202175621" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="js/app.min.js?_v=20230202175621"></script>
+</body>
+
+</html>
